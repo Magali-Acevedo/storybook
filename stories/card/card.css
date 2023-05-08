@@ -1,0 +1,55 @@
+@import "../common/var.css";
+
+
+.wrapper {
+    resize: horizontal;
+    overflow: auto;
+    container-name: card;
+    container-type:inline-size;
+}
+.card{
+background-color: var(--secundary_100);
+border-radius: 12px;
+border: 1px solid var(--secundary_400);
+padding: 24px;
+display: flex;
+align-items: center;
+transition: 0.2s ease-in;
+cursor: pointer;
+gap: 16px;
+}
+.card:hover{
+    box-shadow: -8px 6px 10px -8px rgba(0,0,0,0.4);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.card__avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 1999px;
+    background-color: var( --primary_400);
+    margin: 0;
+}
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.card__content h3,
+.card__content p{
+margin: 0;
+}
+
+@container card (max-width: 400px) {
+    .card{
+        flex-direction:column;
+
+    }
+    .card__content {
+    align-items:center;
+    
+    }
+}

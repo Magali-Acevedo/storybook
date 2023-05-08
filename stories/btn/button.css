@@ -1,0 +1,30 @@
+@import "../common/var.css";
+.btn {
+    border: 2px solid var(--primary_400);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 600;
+}
+.btn:hover{
+    box-shadow: -8px 6px 10px -8px rgba(0,0,0,0.4);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.btn--filled{
+    background-color: var(--primary_400);
+    color: var(--white);
+}
+.btn--outlined{
+background-color: var(--white);
+color: var(--primary_400);
+}
+.btn--small {
+    padding: 8px 16px;
+}
+.btn--medium {
+    padding: 12px 24px;
+}
+.btn--large {
+    padding: 16px 32px;
+}

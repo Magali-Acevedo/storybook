@@ -1,0 +1,27 @@
+:root {
+    --primary_500: #368984;
+    --primary_400: #439A97;
+    --primary_200: #86C3C2;
+    --primary_50: #E1F0F0;
+    --secundary_800: #606060;
+    --secundary_600: #979797;
+    --secundary_400: #DEDEDE;
+    --secundary_100: #FAFAFA;
+    --colorWarning: #D76872;
+    --colorSuccess: #3C885F;
+    --accent_700: #4982AE;
+    --accent_500: #59A2D0;
+    --accent_50: #E3F4FA;
+    --white : #FFFFFF;
+    --black:#000000;
+
+    /* Text-size styles */
+--font-body--10: 10.2px;
+--font-body--12: 12.8px;
+--font-body--16: 16px;
+--font-body--25: 25px;
+--font-h2: 31.25px;
+--font-h1: 39.06px;
+
+}
+
